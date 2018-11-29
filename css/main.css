@@ -15,8 +15,8 @@ html {
 }
 
 *, *::before, *::after {
-    box-sizing: inherit;
-  }
+  box-sizing: inherit;
+}
 
 body {
   margin: 0;
@@ -54,11 +54,11 @@ li {
 
 @media only screen and (min-width: 25em) {
 
-li {
-  display: inline-block;
-  width: 49%;
-  text-align: center;
-}
+  li {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+  }
 
 }
 
@@ -69,15 +69,16 @@ li {
     line-height: 1.4;
   }
 
-nav ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-nav li {
-  margin: 0 .75rem;
-}
+  nav li {
+    margin: 0 .75rem;
+    width: 25%;
+  }
 
 }
 
@@ -90,16 +91,17 @@ nav li {
 
   header {
     display: flex;
-}
+    flex-wrap: nowrap;
+  }
 
-nav li {
-  width: 50%;
-}
+  nav li {
+    width: 50%;
+  }
 
 @media only screen and (min-width: 90em) {
 
-  html {
-    font-size: 130%;
+    html {
+      font-size: 130%;
   }
 
 }
